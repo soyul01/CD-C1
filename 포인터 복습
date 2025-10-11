@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+	// * 은 3개 역할
+	// * 곱셈
+	// * 포인터 선언
+	// * 간접참조 (포인터가 가리키는 값)
+	int fool =7777; 
+	int* stupid= &fool;
+	printf("%d\n", *stupid);
+	*stupid = 1;
+	printf("%d\n", fool);
+	
+	printf("%d\n",&*stupid);
+	printf("%d\n",stupid);
+	printf("%d\n",&fool);
+}
